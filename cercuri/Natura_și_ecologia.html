@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <title> CCA Sîngerei </title>
+          <meta charset="UTF8">
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <link rel="stylesheet" href="../css/style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+          <link rel="icon" type="image/png" href="../image/logo.png" />
+          <script src="../js/main.js"> </script>
+          <script src="date.php"> </script>
+    </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        
+        
+        .wrapper {
+          display: flex;
+          justify-content: center;
+        }
+        
+        .cta {
+            display: flex;
+            padding: 10px 45px;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+            color: white;
+            background: #6225E6;
+            transition: 1s;
+            box-shadow: 6px 6px 0 black;
+            transform: skewX(-15deg);
+        }
+        
+        .cta:focus {
+           outline: none; 
+        }
+        
+        .cta:hover {
+            transition: 0.5s;
+            box-shadow: 10px 10px 0 #FBC638;
+        }
+        
+        .cta span:nth-child(2) {
+            transition: 0.5s;
+            margin-right: 0px;
+        }
+        
+        .cta:hover  span:nth-child(2) {
+            transition: 0.5s;
+            margin-right: 45px;
+        }
+        
+          span {
+            transform: skewX(15deg) 
+          }
+        
+          span:nth-child(2) {
+            width: 20px;
+            margin-left: 30px;
+            position: relative;
+            top: 12%;
+          }
+          
+        /**************SVG****************/
+        
+        path.one {
+            transition: 0.4s;
+            transform: translateX(-60%);
+        }
+        
+        path.two {
+            transition: 0.5s;
+            transform: translateX(-30%);
+        }
+        
+        .cta:hover path.three {
+            animation: color_anim 1s infinite 0.2s;
+        }
+        
+        .cta:hover path.one {
+            transform: translateX(0%);
+            animation: color_anim 1s infinite 0.6s;
+        }
+        
+        .cta:hover path.two {
+            transform: translateX(0%);
+            animation: color_anim 1s infinite 0.4s;
+        }
+        
+        /* SVG animations */
+        
+        @keyframes color_anim {
+            0% {
+                fill: white;
+            }
+            50% {
+                fill: #FBC638;
+            }
+            100% {
+                fill: white;
+            }
+        }
+            </style>
+
+
+    <body>
+      <header class="header">
+         <img  class="header-logo" src="../image/logo.png" alt="Logo siteului"/>
+        <div id="navbar" class="nav">
+         <a href="../index.html" >Despre noi</a>
+         <a href="../page/descriere.html">Contacte</a>
+         <a href="../page/contacte.html">Înregistrare</a>
+		 <a href="2020.html" class="active" >Succese</a>
+		  <a href="">Cercuri</a>
+		  <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars" ></i></a>
+ 
+         </div>
+     </header>
+	 
+	 
+        <H1 class="centered">Natura și Ecologia </H1>
+
+                    
+     <div class="centered" >  
+       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/_NxGIAS-bRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         --> 
+       
+       
+         
+         <img class="img-foto" src="../logo/natura.PNG">
+       
+
+           <div class="container">
+ 
+            <p> Cunoașterea naturii învață copiii să trăiască în armonie cu mediul înconjurător, contribuind la păstrarea ei și pentru 
+                generațiile următoare. Cercul încearcă să altoiască copiilor dragostea pentru natură și să se folosească de darurile ei 
+                în scopul creării unor compoziții interesante, cunoscând în același timp mai bine structura, calitățile și rolul lor în natură. 
+                La confecționarea lucrărilor copiilor li se dezvoltă răbdarea, atenția, îndemânarea, spiritul de observație, gustul estetic, 
+                fantezia și alte calități.
+
+
+
+
+           </p>      
+        </div>
+
+    </div>
+       
+
+     <footer>
+         
+        <div class="centered footer-info">
+          <span>Centrul de Creație și Agrement Sîngerei</span><br/>
+          <span id="an"> </span>
+       </div>
+       <script src="../js/main.js"> </script>
+        </footer>
+        
+
+    </body>
+</html>
+
+
+
+                
+                <!--  <form  >
+                    <label class="input-box" for="cercul">Cercul</label><br/> 
+                    <select class="input-box" name="cercul" id="cercul"> 
+                        <option>Dans sportiv</option>
+                        <option>Anamblul vocal-instrumetal Alfabetul</option>
+                        <option>Ansamblul vocal Steluțe muzicale</option>
+                        <option>Ansmblul folcloric Florile dalbe</option>
+                        <option>Pirogravura</option>
+                        <option>Arta lemnului</option>
+                        <option>Arta plastica</option>
+                        <option>Floristica textila</option>
+                        <option>Qulling</option>
+                        <option>Crosteta fermecata</option>
+                        <option>Biser</option>
+                        <option>Tainele infomaticii</option>
+                        <option>Natura si ecologia</option>
+                        <option>Engleza interactivă</option>
+                    </select><br/>
+                    <br/>
+                    <label for="nume">Numele/Prenume elevului</label>
+                    <input class="input-box" type="text" name="nume" id=nume /><br/>
+                   <br/>
+                    <label for="institutia">Instituția/clasa</label>
+                    <input class="input-box" type="text" name="institutia" id=institutia />
+
+                    <label for="clasa"><p>Telefon de contact</label> 
+                    <input class="input-box"  type="text" name="clasa" id=clasa /><br/><br/>
+
+                    <label for="email">Email </label><br/>
+                    <input class="input-box" type="email" name="email" id="email"  />
+                    <br/> <br/>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXbV3598bW5JIIoZQ1tm2u45WA0GUFklYCyo9Xyi8VYg_7ow/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
+                        <button type="button">Înregistrează-te aici</button>  </a>  
+
+                </form> -->

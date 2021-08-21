@@ -13,28 +13,29 @@
           <script src="../js/main.js"> </script>
     </head>
     <body>
-     <header class="header" >
+         <header class="header">
          <img  class="header-logo" src="../image/logo.png" alt="Logo siteului"/>
-
-         <div id="navbar" class="nav"  >
-         <a href="../index.html">Star</a>
-         <a href="descriere.html"class="active">Descriere</a>
-         <a href="contacte.html">Înregistrare</a>
-         <a href="rezultate.html">Rezultate</a> 
-         <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars" ></i></a>
+        <div id="navbar" class="nav">
+         <a href="../index.html" >Despre noi</a>
+         <a href="../page/descriere.html" class="active">Contacte</a>
+         <a href="../page/contacte.html">Înregistrare</a>
+		 <a href="../succese/2020.html">Succese</a>
+		  <a href="cercuri.html">Cercuri</a>
+		  <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars" ></i></a>
          </div>
-
      </header>
+	 
+	 
      <div class="container">
          <h1 class="cedered"> Centrul de Creație și Agrement</h1>
-         <div class="row">
+         <!-- <div class="row">
              <div class="col-6" class="cedered">   
                  <img class="img-despre" src="../image/despre1.jpg">
              </div>
              <div class="col-6" class="cedered">  
                  <img class="img-despre" src="../image/despre2.jpg">
-                  </div>
-         </div>
+                  </div> 
+         </div> -->
          <hr/>
          <div class="tabel-date">  
              <table>
@@ -142,12 +143,42 @@
          </div>
 
      </div>
-     <footer>
-         
-         <div class="centered footer-info">
-           <span>Centrul de Creație și Agrement Sîngerei</span>
-           <span>2020</span>
+
+    
+
+
+     <div class="container"> 
+             <hr>
+     <div class="row">
+        <div  class="col-4"> 
+            <h2>Contacte:</h2>
+            <br>
+            <b>Telefon:</b> <br/> <span>026223762</span> <br/>
+            <b>Adresa: </b><br/> <span> str. Independenţei,128</span> <br/>
+            <b>Orele de lucru:</b><br/> <span>Zilnic/09:00-17:00</span>
+
         </div>
-         </footer>
+        <div class="container-iframe">
+           <div class="col-8 harta cedered"> 
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.5892632962446!2d28.145401214973475!3d47.63411489407109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb7a1be762e39b%3A0x9fe2179155085803!2sCasa%20de%20Creatie%20Singerei!5e0!3m2!1sru!2s!4v1598475230378!5m2!1sru!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+       </div>
+         
+    
+    </div>
+</div>
+
+
+
+
+<footer>
+         
+    <div class="centered footer-info">
+      <span>Centrul de Creație și Agrement Sîngerei</span><br/>
+      <span id="an"> </span>
+   </div>
+    <script src="../js/main.js"> </script>
+    </footer>
+    
+
     </body>
 </html>
